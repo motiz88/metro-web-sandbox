@@ -1,0 +1,8 @@
+<!-- <script src="/index.bundle?hot=true"></script> -->
+<script type="module">
+  console.log(WebSocket);
+  window.ws = new WebSocket(`wss://${location.host}`);
+  ws.onopen = () => console.log('opened');
+  ws.onmessage = (m) => console.log(m.data);
+  console.log(window.ws);
+</script>

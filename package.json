@@ -1,0 +1,12 @@
+{
+  "name": "metro-starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "metro serve --port 3000"
+  },
+  "dependencies": {
+    "metro": "^0.71.1",
+    "metro-runtime": "^0.71.1"
+  }
+}
